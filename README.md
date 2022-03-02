@@ -1,9 +1,12 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 -Wireframe:
 -Hosted on Netlify https://quizzical-noether-274a4b.netlify.app
--User story:
+-User story: A way to display photos of where you have been and places you may want to go in one organized place.
+-End user: Keeps a digital copy of memories without having tons of seperate folders of photos that are not organized.
 ## Available Scripts
 
 In the project directory, you can run:

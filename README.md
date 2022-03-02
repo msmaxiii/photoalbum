@@ -1,7 +1,14 @@
+![IMG_5186](https://user-images.githubusercontent.com/90586508/156306223-38a12cef-b465-454d-bd3b-a0313fd39ada.jpg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+Hosted on Netlify https://quizzical-noether-274a4b.netlify.app
+
+-User story: A way to display photos of where you have been and places you may want to go in one organized place.
+-End user: Keeps a digital copy of memories without having tons of seperate folders of photos that are not organized.
 ## Available Scripts
 
 In the project directory, you can run:
@@ -67,4 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify]
+book.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

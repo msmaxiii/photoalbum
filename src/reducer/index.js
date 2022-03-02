@@ -4,7 +4,7 @@ import {
     FETCH_PHOTO_FAIL,
     ADD_FAVORITE,
     REMOVE_FAVORITE,
-} from './action';
+} from '../action';
 
 const initialState ={
     Photolist:'',

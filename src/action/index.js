@@ -15,12 +15,13 @@ export const removeFavorite =(photo)=>(dispatch)=>{
 }
 export const fetchPhotos = () => dispatch =>{
     dispatch({type:FETCH_PHOTO_START})
-}
+
 axios
-.get('')
-.then(data =>{ console.log(data);
-    dispatch({type:FETCH_PHOTO_COMPLETE, payload:data.data.file})
+.get('https://api.unsplash.com/photos/?client_id=OjWTcJNA_Vhs6R_XUJnqyNC6J-SIxJ_217tx8fjn-_s')
+.then(data =>{ console.log(data.data);
+    dispatch({type:FETCH_PHOTO_COMPLETE, payload:data.data})
 })
 .catch(err =>{
-({type:FETCH_PHOTO_FAIL, payload:err.NOT_FOUND})
+dispatch ({type:FETCH_PHOTO_FAIL, payload:err.NOT_FOUND})
 })
+}

@@ -1,7 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+-Wireframe:
+-Hosted on Netlify https://quizzical-noether-274a4b.netlify.app
+-User story:
 ## Available Scripts
 
 In the project directory, you can run:

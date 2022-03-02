@@ -4,7 +4,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
--Wireframe:
+
 Hosted on Netlify https://quizzical-noether-274a4b.netlify.app
 
 -User story: A way to display photos of where you have been and places you may want to go in one organized place.

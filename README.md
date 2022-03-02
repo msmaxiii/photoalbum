@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 -Wireframe:
--Hosted on Netlify https://quizzical-noether-274a4b.netlify.app
+Hosted on Netlify https://quizzical-noether-274a4b.netlify.app
+
 -User story: A way to display photos of where you have been and places you may want to go in one organized place.
 -End user: Keeps a digital copy of memories without having tons of seperate folders of photos that are not organized.
 ## Available Scripts
@@ -72,5 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://face![IMG_5186](https://user-images.githubusercontent.com/90586508/156304866-8f18f110-0699-4793-800a-b891732c2c07.jpg)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify]
 book.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,7 +1,13 @@
 import React from 'react'
 
-export default function Header() {
+const Header=() =>{
   return (
-    <div>Header</div>
+    <div>
+    <p>Your Mind Awaits for You to</p>
+    </div>
   )
 }
+
+export default Header;
+
+

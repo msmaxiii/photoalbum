@@ -1,19 +1,20 @@
-import React from 'react'
+// import React from 'react'
 
-const Footer =()=>{
-  return (
-    <div style={container}>
-        <p>Imagine Yourself Here</p>
-    </div>
-  )
-}
-const container ={
-    container:{
-        display:'flex',
-        flexDirection:'row',
-        
+// const Footer =()=>{
+//   return (
+//     <div style= {container}> 
+//         <div>
+//         <h3>Imagine Yourself Here</h3>
+//       </div>
+//      </div> 
+//   )
+// }
+//   const container={
+//     display:'flex',
+//     justifyContent:"space-evenly",
+//     // backgroundColor:"#",
+    
 
-    }
-}
+//   }
 
-export default Footer;
+// export default Footer;

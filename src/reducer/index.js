@@ -7,7 +7,7 @@ import {
 } from '../action';
 
 const initialState ={
-    Photolist:'',
+    Photolist:[],
     isLoading:false,
     error:'',
     favorites:[]

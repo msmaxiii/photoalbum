@@ -5,16 +5,17 @@ import { addFavorite , removeFavorite } from '../action/index'
 const Photo =(props)=>{
 //  console.log(props)
     const handleFavorite =(e) => {
+        console.log(e.target.id)
         props.addFavorite(e.target.id);
-        props.removeFavorite.filter(e.target.id);
+        // props.removeFavorite.filter(e.target.id);
     }
 
     return(
         <div >
-            <img src={props.photo.urls.small} alt='photo' id={Photo}/>
+            <img src={props.photo.urls.small} alt='photo' id={props.photo.id}/>
 
             <div >
-                <button id={Photo} onClick={handleFavorite}>
+                <button id={props.photo.urls.small} onClick={handleFavorite}>
                     {props.favorite ? 'Remove from favorite': 'Add to Favorite'}
                 </button>
 

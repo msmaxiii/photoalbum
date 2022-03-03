@@ -1,11 +1,12 @@
-// import React from 'react'
+import React from 'react'
 
-// export function About() {
-//   return (
-//     <div>About</div>
-//   )
-// }
+const About=() =>{
+  return (
+    <div>
+      <h1>My Africa Memories created by Rochelle Maxwell</h1>
+   
+    </div>
+  )
+}
 
-
-
-// export default About;
+export default About;

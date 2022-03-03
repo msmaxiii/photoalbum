@@ -2,7 +2,7 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import React, {Component} from 'react';
-// import Favorite from './Components/Favorite';
+import Favorite from './Components/Favorite';
 import About from './Components/About'
 import Footer from './Components/Footer';
 import Form from './Components/Form';
@@ -19,12 +19,13 @@ function App() {
       
       <Header/>
         {/* <NavBar/> */}
-        {/* <Home/> */}
-      {/* <About/> */}
-      {/* <Favorite/> */}
-      {/* <Form/>
-      <Footer/> */}
+        <Home/>
+      <About/>
+      <Favorite/>
+       <Form/>
+    
       <Photolist/>
+      <Footer/> 
     
      
     </div>

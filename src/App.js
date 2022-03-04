@@ -18,12 +18,16 @@ function App() {
     <div className="App">
       
       <Header/>
-      <About/>
-      <Home/>
-        {/* <NavBar/> */}
+      <NavBar/>
+
+      <Switch>
+        <Route exact path='/'component={Home}/>
+        <Route path='/About'component={About}/>
+        <Route path='/Favorite'component={Favorite}/>
+        <Route path='/Form'component={Form}/>
+      </Switch>
+
       <Photolist/> 
-      <Favorite/>
-      <Form/>
       <Footer/> 
     
      
@@ -34,3 +38,4 @@ function App() {
 }
 
 export default App;
+

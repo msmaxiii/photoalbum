@@ -18,13 +18,12 @@ function App() {
     <div className="App">
       
       <Header/>
-        {/* <NavBar/> */}
-        <Home/>
       <About/>
+      <Home/>
+        {/* <NavBar/> */}
+      <Photolist/> 
       <Favorite/>
-       <Form/>
-    
-      <Photolist/>
+      <Form/>
       <Footer/> 
     
      

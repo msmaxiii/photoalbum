@@ -4,7 +4,8 @@ const Footer =()=>{
   return (
     <div style= {container}> 
         <div>
-        <h3>Imagine Yourself Here</h3>
+        <h3>Created by Rochelle Maxwell</h3>
+        <p></p>
       </div>
      </div> 
   )

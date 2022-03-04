@@ -21,7 +21,7 @@ props.setUserData(prevState=>[newContact,...prevState]);
   }
 return(
 <div>
- <h2>New Contact Information</h2>
+ <h2>Add Contact Information</h2>
 
     <form onSubmit={handleSubmit}>
       <label htmlFor='name'>Name</label>

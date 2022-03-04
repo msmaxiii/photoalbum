@@ -1,11 +1,13 @@
 import React from 'react'
-
+import Form from './Form'
 const Footer =()=>{
   return (
     <div style= {container}> 
         <div>
         <h3>Created by Rochelle Maxwell</h3>
-        <p></p>
+      </div>
+      <div>
+        <Form/>
       </div>
      </div> 
   )
@@ -13,8 +15,11 @@ const Footer =()=>{
   const container={
     display:'flex',
     justifyContent:"space-evenly",
-    // backgroundColor:"#",
-    
+    backgroundColor:"#f1bd0e",
+  
+  // }
+  // form{
+  //   backgroundColor:;
 
   }
 

@@ -18,6 +18,7 @@ return(
 <>
 
 <div>
+<div>Your Mind Awaits for you to Imagine Yourself Here </div>
     {props.isFetching ? 'FetchingPhoto':""}
     {props.error ? props.error:""}
     {props.Photolist && props.Photolist.map(photo => 

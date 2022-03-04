@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin:10 px;
+  padding: 15 px;
+  background-color:'#b3f10e';
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-size: 30 px;
+}
+
+
+
+.App {
+  text-align: center;
+}

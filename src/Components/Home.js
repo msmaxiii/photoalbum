@@ -4,4 +4,7 @@ export default function Home() {
   return (
     <div>Your Mind Awaits for you to Imagine Yourself Here </div>
   )
-}
+//   <div> 
+//   <iframe width="560" height="315" src="https://www.youtube.com/embed/4hPCuMfMv50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+//   </div>
+  }

@@ -11,7 +11,7 @@ const Photo =(props)=>{
     }
 
     return(
-        <div >
+        <div className="photo-container">
             <img src={props.photo.urls.small} alt='photo' id={props.photo.id}/>
 
             <div >

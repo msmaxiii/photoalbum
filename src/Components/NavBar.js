@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 
+
 const NavBar = () =>{
     return (
         <nav style={container}>
             <Link to='/' style={{ color:"#fff"}}>Home</Link>
-            <Link to='/Photogallery'>Photolist</Link>
+            <Link to='/Photogallery'>PhotoGallery</Link>
             <Link to='/Favorite'>Favorite</Link>
             
         </nav>

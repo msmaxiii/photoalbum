@@ -9,9 +9,11 @@ const mapStateToProps =state =>({
 const Favorite=({favoritePhoto}) =>{
   return (
     <div>
+    <div>
         {favoritePhoto.length > 0 ? favoritePhoto.map((photo)=> <img src={photo} alt='photo'/> ) : <h3> No Favs</h3>}
 
     </div>
+  </div>
   )
 }
 export default connect (mapStateToProps,{})(Favorite)

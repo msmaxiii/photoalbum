@@ -17,7 +17,7 @@ export const fetchPhoto = () => dispatch =>{
     dispatch({type:FETCH_PHOTO_START})
 console.log('here');
 axios
-.get('https://api.unsplash.com/collections/z2cqu0Gyn0U/photos/?client_id=OjWTcJNA_Vhs6R_XUJnqyNC6J-SIxJ_217tx8fjn-_s')
+.get('https://api.unsplash.com/collections/z2cqu0Gyn0U/photos/?client_id=OjWTcJNA_Vhs6R_XUJnqyNC6J-SIxJ_217tx8fjn-_s&per_page=50')
 
 .then(data =>{
      console.log(data.data);
